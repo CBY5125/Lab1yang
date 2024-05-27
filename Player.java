@@ -1,9 +1,28 @@
+/**
+
+ * Project: Space Game
+ * Purpose Details: Construction of a text-based Space Game using Java, create class, fields/characteristics and methods/behaviors.Having application print the objects.
+ * Course:IST202
+ * Author:Christina Yang
+ * Date Developed:May26
+ * Last Date Changed:May27
+ * Revision:4
+
+ */
+
+/**
+ * class is player
+ * characteristics is name, score, health, ID
+ */
 public class Player {
-    private String name;
+    public String name;
     private int score;
     private int health;
     private int ID;
 
+    /**
+     * constructor
+     */
     public Player(String name, int score, int health, int ID) {
         this.name = name;
         this.score = score;
@@ -11,7 +30,9 @@ public class Player {
         this.ID = ID;
     }
 
-
+    /**
+     * getter and setter
+     */
     public String getName() {
         return name;
     }
