@@ -20,10 +20,10 @@ public class PowerUps {
     /**
      * constructor 
      */
-        public PowerUps(int strength, String powerType) {
-            this.strength = strength;
-            this.powerType = powerType;
-        }
+    public PowerUps(int strength, String powerType) {
+        this.strength = strength;
+        this.powerType = powerType;
+    }
     /**
      * getter and setter 
      */
@@ -34,7 +34,7 @@ public class PowerUps {
         this.strength = strength;
     }
 
- 
+
     public String getPowerType() {
         return powerType;
     }
